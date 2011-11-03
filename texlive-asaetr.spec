@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/asaetr
+# catalog-date 2009-04-30 00:32:08 +0200
+# catalog-license pd
+# catalog-version 1.0a
 Name:		texlive-asaetr
 Version:	1.0a
 Release:	1
@@ -46,6 +52,7 @@ Small Caps font.
 %doc %{_texmfdistdir}/doc/latex/asaetr/asaetr.pdf
 %doc %{_texmfdistdir}/doc/latex/asaetr/asaetr.tex
 %doc %{_texmfdistdir}/doc/latex/asaetr/cmcscsl10.mf
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -56,3 +63,5 @@ Small Caps font.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
