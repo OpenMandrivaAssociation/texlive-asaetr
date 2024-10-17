@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Transactions of the ASAE
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/asaetr
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/asaetr
 License:	PD
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/asaetr.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/asaetr.doc.r%{version}.tar.xz
